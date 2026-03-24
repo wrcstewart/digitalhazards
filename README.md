@@ -5,10 +5,10 @@ A multi-page, interactive website presenting 77 digital hazards across AI, VR, S
 ## Features
 
 - **Multi-page navigation** - Landing page plus 7 category pages
-- **Interactive filtering** - Click platform buttons to show/hide hazards by AI, SM, VG, or VR
+- **Clean data presentation** - All 77 hazards organized in clear tables
 - **Responsive design** - Mobile-friendly layout that works on phones, tablets, and desktops
 - **Modern styling** - Clean, professional design with neutral color scheme
-- **Static HTML/CSS/JS** - No frameworks or dependencies required
+- **Static HTML/CSS** - No frameworks or dependencies required
 
 ## File Structure
 
@@ -24,8 +24,6 @@ master-list-website/
 ├── category7.html          # Environmental Impact (2 hazards)
 ├── css/
 │   └── style.css          # All styling and responsive design
-├── js/
-│   └── filter.js          # Interactive platform filtering
 └── README.md              # This file
 ```
 
@@ -35,8 +33,7 @@ master-list-website/
 
 1. Open `index.html` in any modern web browser
 2. Navigate between categories using the navigation menu
-3. Use filter buttons on category pages to show/hide hazards by platform
-4. All functionality works without a web server (can be opened directly from file system)
+3. All functionality works without a web server (can be opened directly from file system)
 
 ### Deploying to GitHub Pages
 

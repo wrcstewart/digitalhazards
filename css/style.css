@@ -191,51 +191,6 @@ p {
   color: var(--primary-color);
 }
 
-/* Filter Controls */
-.filter-controls {
-  background: #f1f3f5;
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-.filter-label {
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-right: 0.5rem;
-}
-
-.filter-btn {
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--border-color);
-  background: white;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-.filter-btn:hover {
-  border-color: var(--accent-color);
-  background: #e3f2fd;
-}
-
-.filter-btn.active {
-  background: var(--accent-color);
-  color: white;
-  border-color: var(--accent-color);
-}
-
-.filter-btn.inactive {
-  opacity: 0.5;
-  background: #e9ecef;
-}
-
 /* Tables */
 .table-container {
   overflow-x: auto;
