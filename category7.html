@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category 7: Environmental Impact - Master List of Digital Hazards</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Master List of Digital Hazards</h1>
+    <p>Category 7: Environmental Impact</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="category1.html">Harassment & Toxic Behavior</a></li>
+      <li><a href="category2.html">Privacy & Security</a></li>
+      <li><a href="category3.html">Cognitive & Skill Impairment</a></li>
+      <li><a href="category4.html">Mental Health</a></li>
+      <li><a href="category5.html">Physical Health</a></li>
+      <li><a href="category6.html">Social, Political & Economic</a></li>
+      <li><a href="category7.html" class="active">Environmental Impact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+      <h2>Category 7: Environmental Impact (2 hazards)</h2>
+      <p>This category addresses environmental consequences including energy consumption, carbon footprint, and psychological disconnection from nature affecting environmental stewardship.</p>
+      
+      <div class="legend">
+        <div class="legend-item">
+          <strong>AI</strong> = Artificial Intelligence
+        </div>
+        <div class="legend-item">
+          <strong>SM</strong> = Social Media
+        </div>
+        <div class="legend-item">
+          <strong>VG</strong> = Video Games
+        </div>
+        <div class="legend-item">
+          <strong>VR</strong> = Virtual Reality
+        </div>
+      </div>
+
+      <div class="filter-controls">
+        <span class="filter-label">Filter by platform:</span>
+        <button class="filter-btn active" data-platform="AI">AI</button>
+        <button class="filter-btn active" data-platform="SM">SM</button>
+        <button class="filter-btn active" data-platform="VG">VG</button>
+        <button class="filter-btn active" data-platform="VR">VR</button>
+        <span id="visible-count" style="margin-left: auto; font-weight: 600; color: #666;"></span>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Hazard</th>
+              <th class="platform-col">AI</th>
+              <th class="platform-col">SM</th>
+              <th class="platform-col">VG</th>
+              <th class="platform-col">VR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-platforms="AI">
+              <td>Environmental Impact</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+            </tr>
+            <tr data-platforms="VG, VR">
+              <td>Decreased Environmental Stewardship</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell">X</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page-nav">
+        <a href="category6.html" class="nav-btn">← Previous: Social, Political & Economic</a>
+        <a href="index.html" class="nav-btn">Back to Home →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Master List of Digital Hazards</p>
+    <p>Category 7 of 7: Environmental Impact</p>
+  </footer>
+
+  <script src="js/filter.js"></script>
+</body>
+</html>

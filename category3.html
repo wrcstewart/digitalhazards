@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category 3: Cognitive and Skill Impairment - Master List of Digital Hazards</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Master List of Digital Hazards</h1>
+    <p>Category 3: Cognitive and Skill Impairment</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="category1.html">Harassment & Toxic Behavior</a></li>
+      <li><a href="category2.html">Privacy & Security</a></li>
+      <li><a href="category3.html" class="active">Cognitive & Skill Impairment</a></li>
+      <li><a href="category4.html">Mental Health</a></li>
+      <li><a href="category5.html">Physical Health</a></li>
+      <li><a href="category6.html">Social, Political & Economic</a></li>
+      <li><a href="category7.html">Environmental Impact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+      <h2>Category 3: Cognitive and Skill Impairment (4 hazards)</h2>
+      <p>This category addresses the degradation of human cognitive abilities, critical thinking, creativity, and essential skills through overdependence on AI tools and passive digital consumption.</p>
+      
+      <div class="legend">
+        <div class="legend-item">
+          <strong>AI</strong> = Artificial Intelligence
+        </div>
+        <div class="legend-item">
+          <strong>SM</strong> = Social Media
+        </div>
+        <div class="legend-item">
+          <strong>VG</strong> = Video Games
+        </div>
+        <div class="legend-item">
+          <strong>VR</strong> = Virtual Reality
+        </div>
+      </div>
+
+      <div class="filter-controls">
+        <span class="filter-label">Filter by platform:</span>
+        <button class="filter-btn active" data-platform="AI">AI</button>
+        <button class="filter-btn active" data-platform="SM">SM</button>
+        <button class="filter-btn active" data-platform="VG">VG</button>
+        <button class="filter-btn active" data-platform="VR">VR</button>
+        <span id="visible-count" style="margin-left: auto; font-weight: 600; color: #666;"></span>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Hazard</th>
+              <th class="platform-col">AI</th>
+              <th class="platform-col">SM</th>
+              <th class="platform-col">VG</th>
+              <th class="platform-col">VR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-platforms="AI">
+              <td>Skill Atrophy and Overdependence</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+            </tr>
+            <tr data-platforms="AI, SM">
+              <td>Loss of Critical Thinking Skills</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+            </tr>
+            <tr data-platforms="AI">
+              <td>Reduced Creativity (from AI Dependence)</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell"></td>
+            </tr>
+            <tr data-platforms="SM, VG, VR">
+              <td>Weakened Interpersonal Skills</td>
+              <td class="platform-cell"></td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell">X</td>
+              <td class="platform-cell">X</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page-nav">
+        <a href="category2.html" class="nav-btn">← Previous: Privacy & Security</a>
+        <a href="category4.html" class="nav-btn">Next: Mental Health →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Master List of Digital Hazards</p>
+    <p>Category 3 of 7: Cognitive and Skill Impairment</p>
+  </footer>
+
+  <script src="js/filter.js"></script>
+</body>
+</html>
