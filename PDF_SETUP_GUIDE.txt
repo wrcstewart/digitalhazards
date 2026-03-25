@@ -1,0 +1,39 @@
+QUICK GUIDE: Setting Up PDF Download Links
+===========================================
+
+After uploading your website to GitHub, follow these simple steps:
+
+STEP 1: Upload PDF Files to Repository Root
+--------------------------------------------
+Upload these 4 PDF files to the SAME directory as index.html:
+  ✓ AI_Hazards_Report.pdf
+  ✓ Social_Media_Impacts.pdf  
+  ✓ VR_Report.pdf
+  ✓ Video_Game_Impacts.pdf
+
+STEP 2: That's it!
+------------------
+The PDF links are already configured as relative paths.
+Once the PDFs are in the root directory, all buttons will work automatically.
+
+No need to edit any files or update any links!
+
+File Structure Should Look Like This:
+--------------------------------------
+your-repository/
+├── index.html
+├── category1.html
+├── category2.html
+├── ...
+├── AI_Hazards_Report.pdf          ← Upload here
+├── Social_Media_Impacts.pdf        ← Upload here
+├── VR_Report.pdf                   ← Upload here
+├── Video_Game_Impacts.pdf          ← Upload here
+└── css/
+    └── style.css
+
+Testing:
+--------
+After uploading, visit your live site and click the PDF buttons
+to ensure they open/download correctly.
+

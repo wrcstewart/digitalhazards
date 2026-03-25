@@ -5,10 +5,29 @@ A multi-page, interactive website presenting 77 digital hazards across AI, VR, S
 ## Features
 
 - **Multi-page navigation** - Landing page plus 7 category pages
+- **PDF Research Reports** - Download links to 4 comprehensive academic reports
 - **Clean data presentation** - All 77 hazards organized in clear tables
 - **Responsive design** - Mobile-friendly layout that works on phones, tablets, and desktops
 - **Modern styling** - Clean, professional design with neutral color scheme
 - **Static HTML/CSS** - No frameworks or dependencies required
+
+## Adding PDF Reports
+
+The website includes download buttons for 4 PDF research reports. To make these work:
+
+1. **Upload your PDF files to your GitHub repository root**
+   
+   Upload these files to the **same directory** as `index.html`:
+   - `AI_Hazards_Report.pdf`
+   - `Social_Media_Impacts.pdf`
+   - `VR_Report.pdf`
+   - `Video_Game_Impacts.pdf`
+
+2. **That's it!**
+   
+   The links are already configured as relative paths. Once you upload the PDFs to the root directory, the download and view buttons will work automatically.
+
+**Note:** Both "Download" and "View Online" buttons will open the PDF. The browser will handle whether to download or display based on user settings.
 
 ## File Structure
 
