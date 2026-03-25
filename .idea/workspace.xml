@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d770dcc-2dce-4c4d-bc9c-5b1c1a0b35d0" name="Changes" comment="adding reports 1">
-      <change beforePath="$PROJECT_DIR$/VRReport.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/VR_Report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Video_Games_Impacts.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="1d770dcc-2dce-4c4d-bc9c-5b1c1a0b35d0" name="Changes" comment="adding reports 1 cat to 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774354677297</updated>
-      <workItem from="1774354678298" duration="10859000" />
+      <workItem from="1774354678298" duration="11200000" />
     </task>
     <task id="LOCAL-00001" summary="after remove filtering">
       <option name="closed" value="true" />
@@ -93,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774445716899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding reports 1 rename VR">
+      <option name="closed" value="true" />
+      <created>1774446144997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774446144997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding reports 1 cat to 5">
+      <option name="closed" value="true" />
+      <created>1774446352791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774446352791</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="after remove filtering" />
     <MESSAGE value="adding reports 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding reports 1" />
+    <MESSAGE value="adding reports 1 rename VR" />
+    <MESSAGE value="adding reports 1 cat to 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding reports 1 cat to 5" />
   </component>
 </project>
